@@ -33,4 +33,4 @@ $router->post('/login', 'controlers/sessions/store.php');
 
 $router->get('/home', 'controlers/home.php');
 $router->get('/test', 'test.php');
-$router->get('/style.css', 'style.css');
+$router->get('/perfuoms', 'controlers/perfuom/index.php');

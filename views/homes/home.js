@@ -65,7 +65,7 @@ function displayProducts() {
             <p>${perfume.description}</p>
             
 
-             <button onclick="window.location.href='projectBage.html';">Add to Cart</button> 
+             <button onclick="window.location.href='/perfuoms';">Add to Cart</button> 
         `;
         productsDiv.appendChild(productDiv);
         
