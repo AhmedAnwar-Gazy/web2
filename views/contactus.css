@@ -1,0 +1,240 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 200vh;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  display: flex;
+  flex-flow: column;
+
+}
+
+.hr {
+  color: rgb(0, 0, 0);
+  background-color:rgb(255, 255, 255);;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main {
+  background-color:rgb(250 250 250);
+  padding: 2rem;
+  height: calc(200vh - 200px);
+  color: #000000;
+  font-weight: 60px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section{
+  width :80% ;
+  height: 100%;
+  margin:20px 10vw;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.Contact-Us{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  position: relative;
+  border-radius: 15px;
+}
+.Contact-Us-left{
+  display: flex;
+  flex-flow: column;
+  background-color: rgb(0, 0, 0);
+  position: relative;
+color: #ffffff;
+margin-left:20px ;
+}
+.h1{
+  margin-bottom: 10px;
+  color: #fff;
+}
+.social{
+  display: flex;
+  flex-flow: row;
+  margin: 30px ;
+
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.whatsapp{
+  width: 200px;
+  height: 70px;
+  background-color: white;
+  color: #000;
+  margin: 0px 10px 0px 10px ;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+
+}
+.whatsapp:hover{
+  background-color:rgb(250 250 250);
+  border: 1px solid black;
+  transition-duration:0.5s;
+}
+.phone{
+  width: 200px;
+  height: 70px;
+  background-color: white;
+  color: #000;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+
+}
+.phone:hover{
+  background-color:rgb(250 250 250);
+  border: 1px solid black;
+  transition-duration:0.5s;
+}
+h1 {
+  font-weight: bold;
+  color: #000;
+
+}
+.W{
+  font-size: 20px;
+}
+
+a{
+  color: #000;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 8px ;
+}
+
+.user-data{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.user-data-top{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  margin: 15px 0px 20px 0px;
+}
+
+.user-data-md{
+
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  margin: 20px 170px 15px 170px;
+
+}
+
+select{
+  width: 270px;
+  height: 45px;
+  background-color: rgb(244 244 245);
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  padding: 12px 15px ;
+}
+select:hover{
+  background-color:rgb(250 250 250);
+  border: 1px solid black;
+  transition-duration:0.5s;
+}
+input{
+  width: 270px;
+  height: 45px;
+  background-color: rgb(244 244 245);
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  padding: 12px 15px ;
+}
+input:hover{
+  background-color:rgb(250 250 250);
+  border: 1px solid black;
+  transition-duration:0.5s;
+}
+.inp1 {
+  width: 85%;
+  height: 60px;
+  background-color: rgb(244 244 245);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  border: none;
+  outline: none;
+  padding: 12px 15px ;
+}
+.inp2{
+  width: 85%;
+  height: 400px;
+  background-color: rgb(244 244 245);
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  padding: 12px 15px ;
+}
+.inpC{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 0px 0px 15px;
+  border: none;
+  outline: none;
+  padding: 12px 15px ;
+}
+h5{
+  padding-bottom:10px ;
+}
+.but{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  background-color: #000;
+  color: #fff;
+  border-radius: 7px;
+  width: 400px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+button:hover{
+  color: #000;
+  background-color: white;
+  transition-duration:0.2s;
+}
+
+
+
+
+
+

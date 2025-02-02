@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+ body{
+    height: 200vh;
+ }
+h1,h2,h3,h4,h5,h6{
+    display: block;
+}
+h2{
+    font-size: 1.5rem;
+}
+h4{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+h6{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.cash{
+    color: #f00;
+    font-weight: bold;
+}
+.header{
+ background-color: rgb(255, 255, 255);
+ width : 100%;
+ height: 100px;
+ display: flex ;
+ justify-self:center;
+ align-items:center;
+ justify-content:center;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+ & div {
+    display: inline;
+ }
+ 
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.prodact_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgb(242, 242, 242);
+    border-radius: 15px;
+    width: 450px;
+    height: 550px;
+    
+}
+
+.prodact_details{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    padding: 1rem;
+    width: 700px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    & *{
+        margin: 0.2rem;
+    }
+    
+}
+.butAdd{
+    background-color: #000;
+    color: #fff;
+    border-radius: 7px;
+
+    height: 50px;
+    width: 60%;
+}
+.butAdd:hover{
+    background-color: white;
+    color: #000;
+}
+
+.B{
+    background-color:rgb(242, 242, 242);
+    color: #000000;
+    border-radius: 5px;
+    border: none ;
+
+    height: 40px;
+    width: 80px;
+}
+.B:hover{
+    background-color: white;
+}
+#img{
+    width: 60px;
+    height: 60px;
+}
+.heart{
+    width: 20px;
+    height: 20px;
+}
+.Ds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(242, 242, 242);
+    height: auto;
+    margin: 15px 0px 5px 0px;
+    border-radius: 5px;
+}
+.prodact_more{
+    background-color: rgb(242, 242, 242);
+    border-radius: 5px;
+    margin: 25px 0 25px 0;
+}
