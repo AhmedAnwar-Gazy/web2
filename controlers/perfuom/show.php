@@ -11,12 +11,14 @@ $userID = 1;
 
 
 
-$note = $db->query("SELECT * from notes where id = :id ", [
+$perfum = $db->query("SELECT * from perfums where id = :id ", [
   'id' => $_GET['id'],
 ])->findOrFail();
 
-authorize($note['other_id'] == $userID);
+//authorize($note['other_id'] == $userID);
+
+//dd($perfum);
 
 
 
-require "views/notes/show_view.php";
+require "views/homes/show_view.php";

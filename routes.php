@@ -31,6 +31,14 @@ $router->post('/login', 'controlers/sessions/store.php');
 
 
 
-$router->get('/home', 'controlers/home.php');
-$router->get('/test', 'test.php');
-$router->get('/perfuoms', 'controlers/perfuom/index.php');
+$router->get('/home', 'controlers/perfuom/index.php');
+$router->get('/perfum', 'controlers/perfuom/show.php');
+
+
+
+
+
+//test
+$router->get('/Carousel', 'views/test/Carousel.php');
+$router->get('/checkout', 'views/test/checkout.php');
+

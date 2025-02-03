@@ -9,10 +9,18 @@ $db = App::resolve(Database::class);
 
 $perfums = $db->query("SELECT * from perfums;")->fetchAll();
 
-dd($perfums);
 
 
-require "views/notes/index_view.php";
+
+
+
+
+//dd("");
+
+
+
+
+require "views/homes/home_view.php";
 
 
 ?>
