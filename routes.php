@@ -41,4 +41,6 @@ $router->get('/perfum', 'controlers/perfuom/show.php');
 //test
 $router->get('/Carousel', 'views/test/Carousel.php');
 $router->get('/checkout', 'views/test/checkout.php');
+$router->get('/search', 'controlers/test/search.php');
+
 
